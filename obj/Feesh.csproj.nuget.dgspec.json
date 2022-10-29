@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mortk\\Desktop\\VR games\\Feesh\\Feesh.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mortk\\Desktop\\VR games\\Feesh\\Feesh.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mortk\\Desktop\\VR games\\Feesh\\Feesh.csproj",
+        "projectName": "Feesh",
+        "projectPath": "C:\\Users\\mortk\\Desktop\\VR games\\Feesh\\Feesh.csproj",
+        "packagesPath": "C:\\Users\\mortk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mortk\\Desktop\\VR games\\Feesh\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mortk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "StereoKit": {
+              "target": "Package",
+              "version": "[0.3.7-preview.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

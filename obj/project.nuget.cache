@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jL32ReVhNtS7xw3duyCXLJDjR1uzqn2pkV1rPa2Dvva+zZrvn+FlJJLJ3kIsw3OLIpVfdnG8x/YG/iGyH663kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mortk\\Desktop\\VR games\\Feesh\\Feesh.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mortk\\.nuget\\packages\\stereokit\\0.3.7-preview.5\\stereokit.0.3.7-preview.5.nupkg.sha512",
+    "C:\\Users\\mortk\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
