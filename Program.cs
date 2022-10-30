@@ -31,12 +31,20 @@ SK.Run(() =>
     origin -= headPos;
     origin = Quat.FromAngles(0, delta, 0) * origin;
     origin += headPos;
-    
-    origin += Input.Controller(Handed.Left).stick.X0Y * Time.Elapsedf;
+
+    Vec3 move = -Input.Controller(Handed.Left).stick.X0Y * Time.Elapsedf;
+    origin += (Input.Head.orientation * move).X0Z;
     Renderer.CameraRoot = Matrix.TR(origin, Quat.FromAngles(0, rotate, 0)) * bounds.Inverse;
 
 
     fishForest.Draw(Matrix.Identity);
     chair.Draw(Matrix.S(1f / 50f));
 });
-// SK.Shutdown();
+
+
+
+/*
+Baited
+
+*/
+
